@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>David Z. Ken personal</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<!-- <li><a href="#top">Top</a></li> -->
+                    <li><a href="#about">About Me</a></li>
+					<li><a href="#projects">Projects</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+					<li><a href="#contact">Contact</a></li>
+                    <li><a href="https://github.com/dzchen314/">Github</a></li>
+                    <li><a href="https://moneybball.blogspot.com/">Bball Blog</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<div class="wrapper style1 first">
+				<article class="container" id="about">
+					<div class="row">
+						<div class="4u 12u(mobile)">
+							<span class="image fit"><img src="images/me_catalogprofile.jpg" alt="" /></span>
+						</div>
+						<div class="8u 12u(mobile)">
+							<header>
+								<h2><strong>David Ken</strong></h2>
+							</header>
+							<p align="justify">I am currently a Data Scientist at Capital One, where I am a technical lead focused on training and deploying LLMs for customer call understanding. Recently, I have led publications in <a href="https://aclanthology.org/2022.coling-1.586.pdf">COLING</a> and <a href="https://aclanthology.org/2021.eval4nlp-1.19.pdf">EMNLP</a>. Previously, I've worked as a Lead Data Scientist at Wells Fargo and a Data Science Fellow at Insight Data Science. Prior to working as a Data Scientist in industry, I was a Lab Manager and Postdoctoral Associate in the <a href="https://phy.duke.edu/">Physics Department</a> at <a href="http://www.duke.edu/">Duke</a>. I received a PhD from Caltech in <a href="http://jrgreer.caltech.edu/">Materials Science</a>, where I studied glassy materials and their mechanics. I love complex networks: from <a href="http://www.craftypuzzles.com/">wooden puzzles</a> and grains of sand, to glasses and neural networks. What these diverse subjects have in common is their ability to remember. Piles of sand, just like our brains and neural networks can have a <a href="https://youtu.be/Hm4cdKB74iY?t=13m47s">memory of the past</a> through their complex fabric of contacts!</p>
+                            <p align="justify">I believe that these networks will transform how we understand the world. Outside of research, I use machine learning to make models that try to: <a href="http://ready-player2.com/">recommend games to groups</a>, <a href="https://moneybball.blogspot.com/">predict NBA player performance</a>, and <a href="http://potion.us-east-2.elasticbeanstalk.com/">learn what perfumes smell like</a>.  In my free time, I am an avid baller - currently repping a pair of the Westbrook Why Not?'s. I also enjoy taking pictures and traveling (outside of basketball).</p>
+														<p align="justify">P.S. If you're wondering why my name appears as "Chen" and "Ken" in various places, it is because I recently got married and my wife and I decided to combine our names into a new one!</p>
+							<!--<a href="#work" class="button scrolly">Learn about my research interests</a>-->
+						</div>
+					</div>
+				</article>
+			</div>
+
+        <!-- ML Projects -->
+            <div class="wrapper style2">
+                <article id="projects">
+                    <header>
+                        <h3>Current projects</h3>
+                        <p></p>
+                    </header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="12u 12u(mobile)">
+                                <section class="box style1">
+                                    <span class="image"><img src="images/potion.gif" alt=""></span>
+                                    <h3 align="justify">Online fragrance recommendation engine based on a distributed memory model</h5>
+                                    <p align="justify">NLP model is trained using "paragraph vectors" (see: <a href="https://cs.stanford.edu/~quocle/paragraph_vector.pdf">https://cs.stanford.edu/~quocle/paragraph_vector.pdf</a>) denoting perfumes/colognes, along with a word corpus consisting of over 140k user reviews scraped from basenotes.com (pulled on 4/18). Model was implemented in gensim. The code and a tutorial/background is here: <a href="https://github.com/dzchen314/deep-perfumes-potion-app">https://github.com/dzchen314/deep-perfumes-potion-app</a>. Try it out at <a href="http://potion.us-east-2.elasticbeanstalk.com/">potionfinder.com</a>!</p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+										<div class="container">
+                        <div class="row">
+                            <div class="12u 12u(mobile)">
+                                <section class="box style1">
+                                    <span class="image"><img src="images/multiplayer.png" alt="" style="width:128px;height:128px;"></span>
+                                    <h3 align="justify">Online game recommendation engine based on implicit feedback and bayesian personalized ranking</h5>
+                                    <p align="justify">Matrix factorization model is trained on Steam user data of over 100 Million users, utilizing game-ownership data as implicit feedback. The loss function is optimized using a <a href="https://arxiv.org/pdf/1205.2618.pdf">bayesian personalized ranking</a>, which achieves an AUC of 98% on a dataset that is >99.6% sparse. Try it out at <a href="http://ready-player2.com/">ready-player2.com</a> and use your Steam ID. Or try it with mine: snowmen314</p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+		<!-- Work -->
+			<div class="wrapper style3">
+				<article id="research">
+					<header>
+						<h3>Research interests</h3>
+						<p></p>
+					</header>
+					<div class="container">
+						<div class="row">
+                            <div class="4u 12u(mobile)">
+                                <section class="box style1">
+                                    <span class="image"><img src="images/hydrogels.jpg" alt="" /></span>
+                                    <h3 align="left">3D imaging the shear jamming process in hydrogel spheres</h3>
+                                    <p align="justify">3D laser optical fluorescence tomography. 3D contact networks, e.g. fabric tensors. Image processing and contact mechanics for statistical contact force analysis.</p>
+                                </section>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <section class="box style1">
+                                    <span class="image"><img src="images/suspensions.jpg" alt="" /></span>
+                                    <h3 align="left">Rheology and rate-stiffening of suspensions and granular composites</h3>
+                                    <p align="justify">Discontinuous shear thickening of cornstarch and water. Novel granular composites with discontiuous rate-stiffening properties.</p>
+                                </section>
+                            </div>
+                            <div class="4u 12u(mobile)">
+                                <section class="box style1">
+                                    <span class="image"><img src="images/forcechains.jpg" alt="" /></span>
+                                    <h3 align="left">Force chains in granular materials</h3>
+                                    <p align="justify">Rheology of grains around an intruder. Dynamics of grains during shear/impact. Statistical nature of granular force networks and contact fabrics. Machine learning approach to particle contact detection.</p>
+                                </section>
+                            </div>
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<span class="image"><img src="images/ductilityplot.png" alt="" /></span>
+									<h3 align="left">Fundamental deformation mechanisms in glasses</h3>
+									<p align="justify">Size effect of ductility in metallic glasses. Mechanisms for plasticity in nano-metallic glasses. Molecular dynamics simulations of deformation.</p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<span class="image fit"><img src="images/mushrooms.png" alt="" /></span>
+									<h3 align="left">Fabrication and testing of nanostructures</h3>
+									<p align="justify">Electroplating and sputtering of nanoscale/hierarchical structures and laminates for tensile/compressive mechanical testing at room and cryogenic temperatures.</p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<span class="image fit"><img src="images/icosahedronsMD.png" alt="" /></span>
+									<h3 align="left">Atomic structure of glasses</h3>
+									<p align="justify">In-situ tomography and diffraction of atomic neighborhoods in metallic glasses under hydrostatic pressure. Molecular dynamics simulations of structure and fractal properties in glasses.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- Research -->
+			<div class="wrapper style3">
+				<article id="publications">
+					<header>
+						<h3>Recent publications in peer-reviewed journals</h3>
+						<!--<p><a href="https://sites.duke.edu/dzchen/">More about my research</a></p>-->
+					</header>
+					<div class="container">
+						<div class="row">
+                            <div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="https://www.sciencemag.org/content/349/6254/1306.full" class="image featured"><img src="images/tomo+MD_science.png" alt="" /></a>
+									<h5 align="left"><a href="https://www.sciencemag.org/content/349/6254/1306.full">Fractal atomic-level percolation in metallic glasses</a></h5>
+									<p align="justify"><strong>D.Z. Chen</strong>, C.Y. Shi, Q. An, Q.S. Zhang, W.L. Mao, W.A. Goddard III, J.R. Greer, <em>Science</em> 349 (6254), 1306-1310 (2015)</p>
+								</article>
+							</div>
+                            <div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5b01034" class="image featured"><img src="images/nl-2015-SWL.gif" alt="" /></a>
+									<h5 align="left"><a href="http://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5b01034">Size Effect Suppresses Brittle Failure in Hollow Cu<sub>60</sub>Zr<sub>40</sub> Metallic Glass Nanolattices Deformed at Cryogenic Temperatures</a></h5>
+									<p align="justify">S.W. Lee, J.Z. Mehdi, <strong>D.Z. Chen</strong>, Y.W. Zhang, J.R. Greer, <em>Nano Letters</em> 15 (9), 5673–5681 (2015)</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://pubs.acs.org/doi/abs/10.1021/acsnano.5b00468" class="image featured"><img src="images/nl-2015-betar.gif" alt="" /></a>
+									<h5 align="left"><a href="http://pubs.acs.org/doi/abs/10.1021/acsnano.5b00468"> Tailoring of Interfacial Mechanical Shear Strength by Surface Chemical Modification of Silicon Microwires Embedded in Nafion Membranes</a></h5>
+									<p align="justify">B.M. Gallant, X.W. Gu, <strong>D.Z. Chen</strong>, J.R. Greer, and N.S. Lewis, <em>ACS Nano</em>, 9 (5), 5143-5153 (2015)</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+                            <div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://scitation.aip.org/content/aip/journal/apl/106/6/10.1063/1.4907773" class="image featured"><img src="images/APL-2015-Chen.gif" alt="" /></a>
+									<h5 align="left"><a href="http://scitation.aip.org/content/aip/journal/apl/106/6/10.1063/1.4907773">Ductility and work hardening in nano-sized metallic glasses</a></h5>
+									<p align="justify"><strong>D.Z. Chen</strong>, X.W. Gu, Q.An, W.A. Goddard III, and J.R. Greer, <em>Applied Physics Letters</em> 106, 061903 (2015)</p>
+								</article>
+							</div>
+                            <div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://pubs.acs.org/doi/abs/10.1021/nl5027869" class="image featured"><img src="images/nl-2014-wendygu.gif" alt="" /></a>
+									<h5 align="left"><a href="http://pubs.acs.org/doi/abs/10.1021/nl5027869">Mechanisms of Failure in Nanoscale Metallic Glass</a></h5>
+									<p align="justify">X.W. Gu, M. Jafary-Zadeh, <strong>D.Z. Chen</strong>, Z. Wu,Y.-W. Zhang, D.J. Srolovitz, and J.R. Greer, <em>Nano Letters</em> 14 (10), 5858–5864 (2014)</p>
+								</article>
+							</div>
+							<div class="4u 12u(mobile)">
+								<article class="box style2">
+									<a href="http://pubs.acs.org/doi/abs/10.1021/nl402384r" class="image featured"><img src="images/nl-2013-chen.gif" alt="" /></a>
+									<h5 align="left"><a href="http://pubs.acs.org/doi/abs/10.1021/nl402384r">Nano-Metallic Glasses: Size Reduction Brings Ductility, Surface State Drives its Extent</a></h5>
+									<p align="justify"><strong>D.Z. Chen</strong>, D. Jang, K.M. Guan, Q. An, W.A. Goddard, III, J.R. Greer, <em>Nano Letters</em> 13 (9), 4462-4468 (2013)</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<!--<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button big scrolly">Get in touch with me</a>
+					</footer>-->
+				</article>
+			</div>
+
+		<!-- Contact-->
+			<div class="wrapper style4">
+				<article id="contact" class="container 75%">
+					<header>
+						<h2></h2>
+						<p>Contact: dzchen314 at gmail dot com</p>
+                        <p>Charlotte NC</p>
+					</header>
+					<!--<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u 12u(mobile)">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row 200%">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="reset" value="Clear Form" class="alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>-->
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<menu class="social">
+                                    <li><a href="https://github.com/dzchen314" class="icon fa-github"><span> Github</span></a></li>
+                                    <li><a href="https://scholar.google.com/citations?user=O_5-UCgAAAAJ&hl=en" class="icon fa-google-plus"><span> Google scholar</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/david-chen-08b28131/" class="icon fa-linkedin"><span> LinkedIn</span></a></li>
+                                    <li><a href="https://www.researchgate.net/profile/David_Chen36" class="icon"><span>Researchgate</span></a></li>
+									<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!--
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+								</menu>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; 2018 David Chen. All rights reserved.</li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
